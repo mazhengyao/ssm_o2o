@@ -1,0 +1,9 @@
+2019-09-12 11:34:51:330 [main] DEBUG c.x.o.d.P.queryProductCategoryList - ==>  Preparing: SELECT tpc.product_category_id, tpc.product_category_name, tpc.priority, tpc.create_time, tpc.shop_id FROM tb_product_category tpc WHERE tpc.shop_id = ? ORDER BY tpc.priority DESC 
+2019-09-12 11:34:51:391 [main] DEBUG c.x.o.d.P.queryProductCategoryList - ==> Parameters: 5(Long)
+2019-09-12 11:34:51:410 [main] DEBUG c.x.o.d.P.queryProductCategoryList - <==      Total: 3
+2019-09-12 11:34:51:420 [main] DEBUG c.x.o.dao.ProductCategoryDao.deleteProductCategory - ==>  Preparing: DELETE FROM tb_product_category WHERE product_category_id = ? AND shop_id = ? 
+2019-09-12 11:34:51:421 [main] DEBUG c.x.o.dao.ProductCategoryDao.deleteProductCategory - ==> Parameters: 9(Long), 5(Long)
+2019-09-12 11:34:51:432 [main] DEBUG c.x.o.dao.ProductCategoryDao.deleteProductCategory - <==    Updates: 1
+2019-09-12 11:34:51:432 [main] DEBUG c.x.o.dao.ProductCategoryDao.deleteProductCategory - ==>  Preparing: DELETE FROM tb_product_category WHERE product_category_id = ? AND shop_id = ? 
+2019-09-12 11:34:51:433 [main] DEBUG c.x.o.dao.ProductCategoryDao.deleteProductCategory - ==> Parameters: 8(Long), 5(Long)
+2019-09-12 11:34:51:435 [main] DEBUG c.x.o.dao.ProductCategoryDao.deleteProductCategory - <==    Updates: 1
